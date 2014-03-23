@@ -1,0 +1,23 @@
+<html>
+   <head>
+      <script type="text/javascript" language="javascript" src="js/jquery-1.9.1.js"></script>
+      <script type="text/javascript" language="javascript" src="js/jsonToTable.js"></script>
+      <link rel="stylesheet" type="text/css" href="css/Style.css"></link>
+      <title>Event Manager</title>
+   </head>
+   <body>
+      <img src="image/images.png" class="img">
+      <h1>&nbsp&nbsp&nbspEvent Manager</h1>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <div id="ContentHolder" name="ContentHolder">
+      </div>
+      <script type="text/javascript">
+        $(document).ready(function(){
+        $("#ContentHolder").ConvertJsonToTable();
+        }); 
+      </script>
+   </body>
+</hmtl>
